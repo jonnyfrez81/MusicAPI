@@ -12,7 +12,7 @@ namespace MusicAPI.Helpers
         public static async Task<string> UploadImage(IFormFile file)
         {
             //Storage accounts 
-            string connectionString = @"DefaultEndpointsProtocol=https;AccountName=musikkonto;AccountKey=FmSnTdFHhNJKE6n1wWkHhzxWfLIfOoJ/mzVU9m/a2qhDjIlb1/3LJZwUsaioe5yEpUUC8K6VP+3HwCON33Zg1A==;EndpointSuffix=core.windows.net";
+            string connectionString = //Use your AzureContiner URL!
             //ContainerName
             string containerName = "songscover";
 
@@ -32,7 +32,7 @@ namespace MusicAPI.Helpers
         public static async Task<string> UploadFile(IFormFile file)
         {
             //Storage accounts 
-            string connectionString = @"DefaultEndpointsProtocol=https;AccountName=musikkonto;AccountKey=FmSnTdFHhNJKE6n1wWkHhzxWfLIfOoJ/mzVU9m/a2qhDjIlb1/3LJZwUsaioe5yEpUUC8K6VP+3HwCON33Zg1A==;EndpointSuffix=core.windows.net";
+            string connectionString = //Use your AzureContiner URL!
             //ContainerName
             string containerName = "audiofiles";
 
